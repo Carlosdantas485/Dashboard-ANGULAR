@@ -4,14 +4,14 @@ import { Observable } from 'rxjs/Observable';
 @Injectable()
 export class DadosService {
 
-  readonly dados = [
-    ['Janeiro', 33],
-    ['Fevereiro', 68],
-    ['Março', 49],
-    ['Abril', 15],
-    ['Maio', 80],
-    ['Junho', 27]
-  ];
+    readonly dados = [
+        ['Janeiro', 33],
+        ['Fevereiro', 68],
+        ['Março', 49],
+        ['Abril', 15],
+        ['Maio', 80],
+        ['Junho', 27]
+    ];
 
 	constructor() {}
 
